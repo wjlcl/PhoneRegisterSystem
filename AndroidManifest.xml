@@ -26,6 +26,10 @@
         </activity>
         <activity android:name="com.example.PhoneActivity.TicketMainApp" >
         </activity>
+        <activity android:name="com.example.PhoneActivity.RegisterApp" />
     </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
